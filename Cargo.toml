@@ -1,0 +1,10 @@
+[package]
+name = "wasm-example-add"
+version = "0.1.0"
+authors = ["bobcats <brian@madsalty.com>"]
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
